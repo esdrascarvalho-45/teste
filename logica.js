@@ -3,7 +3,7 @@ function clicar(){
      
     let dois=um.querySelector(".dois");
      
-    dois.children[0].innerHTML += " alet"
+    dois.children[0].innerHTML += "(1°)"
     dois.children[1].append(" (2°)");
     
     let v=document.createElement("li");
